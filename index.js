@@ -18,10 +18,8 @@ const customLightDevice = neeoapi.buildDevice('Simple Buttons')
   .setType('ACCESSOIRE')
 
   // Then we add the capabilities of the device
-  .addButton({ name: 'power-on-HS100', label: 'HS100 ON' })
-  .addButton({ name: 'power-off-HS100', label: 'HS100 OFF' })
-  .addButton({ name: 'power-on-HS110', label: 'HS110 ON' })
-  .addButton({ name: 'power-off-HS110', label: 'HS110 OFF' })
+  .addButton({ name: 'power-on', label: 'HS-PLUG ON' })
+  .addButton({ name: 'power-off', label: 'HS-PLUG OFF' })
   .addButtonHander(controller.onButtonPressed);
 
 console.log('- discover one NEEO Brain...');
