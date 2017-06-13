@@ -1,4 +1,4 @@
-#NEEO
+# NEEO
 NEEO and TP-Link Smart Plugs
 This project allows you to Integrate the TP-LINK HS100 and HS110 devices in NEEO
 
@@ -11,11 +11,11 @@ The NEEO Remote can be (Pre)ordered at: https://neeo.com/
 ## Features
 Currently you are able to Switch ON and OFF with a Button for each action from NEEO Remote and APP
 
-#Changlog
+# Changlog
 
 ## Version 0.0.2
 - Initial release
 
-#ToDo
+# ToDo
 - Implementation of a Switch instead of Singel Buttons
 - Implementation of Readout the Power Consumption and display it at NEEO
