@@ -1,4 +1,5 @@
-#NEEO and TP-Link Smart Plugs
+#NEEO
+NEEO and TP-Link Smart Plugs
 This project allows you to Integrate the TP-LINK HS100 and HS110 devices in NEEO
 
 What is NEEO?
