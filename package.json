@@ -1,0 +1,32 @@
+{
+  "name": "tp-link-hs-series",
+  "version": "0.0.2",
+  "description": "Integration of TP-Link HS-Series Smart Plugs in NEEO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carp3-noctem/tp-link-hs-series.git"
+  },
+  "keywords": [
+    "TP-Link",
+    "HS100",
+    "HS110",
+    "Smart",
+    "Plug",
+    "Plug",
+    "WiFi",
+    "Enabled"
+  ],
+  "author": "Markus Mahr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carp3-noctem/tp-link-hs-series/issues"
+  },
+  "homepage": "https://github.com/carp3-noctem/tp-link-hs-series#readme",
+  "dependencies": {
+    "neeo-sdk": "^0.38.2"
+  }
+}
