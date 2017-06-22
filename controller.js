@@ -12,7 +12,7 @@ module.exports.onButtonPressed = function onButtonPressed(deviceid, name) {
     var magic = Buffer.from(b64string, 'base64');
     var client = new net.Socket();
     client.connect(HS_PLUG_PORT, HS_PLUG_HOST, function() {
-    console.log('CONNECTED TO: ' + HS_PLUG_HOST + ':' + HS_PLUG_PORT);
+    console.log('CONNECTED TO: ' + HS_PLUG_HOST + ':' + HS_PLUG_PORT + ' / Power ON sent.');
     // Write a message to the socket as soon as the client is connected, the server will receive it as message from the client 
     client.write(magic);
     client.destroy();
@@ -23,9 +23,10 @@ module.exports.onButtonPressed = function onButtonPressed(deviceid, name) {
     var magic = Buffer.from(b64string, 'base64');
     var client = new net.Socket();
     client.connect(HS_PLUG_PORT, HS_PLUG_HOST, function() {
-    console.log('CONNECTED TO: ' + HS_PLUG_HOST + ':' + HS_PLUG_PORT);
+    console.log('CONNECTED TO: ' + HS_PLUG_HOST + ':' + HS_PLUG_PORT + ' / Power OFF sent.');
     // Write a message to the socket as soon as the client is connected, the server will receive it as message from the client 
     client.write(magic);
     client.destroy();
       });
-  }
+  };
+}
