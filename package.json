@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/carp3-noctem/tp-link-hs-series.git"
+    "url": "git+https://github.com/carp3-noctem/neeo-driver-tp-link-hs-series.git"
   },
   "keywords": [
     "TP-Link",
@@ -23,9 +23,9 @@
   "author": "Markus Mahr",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/carp3-noctem/tp-link-hs-series/issues"
+    "url": "https://github.com/carp3-noctem/neeo-driver-tp-link-hs-series/issues"
   },
-  "homepage": "https://github.com/carp3-noctem/tp-link-hs-series#readme",
+  "homepage": "https://github.com/carp3-noctem/neeo-driver-tp-link-hs-series.git#readme",
   "dependencies": {
     "neeo-sdk": "^0.38.2"
   }

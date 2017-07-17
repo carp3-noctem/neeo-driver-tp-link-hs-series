@@ -3,7 +3,7 @@
 const neeoapi = require('neeo-sdk');
 const controller = require('./controller');
 
-console.log('NEEO SDK Example "simpleCustomDevice" adapter');
+console.log('NEEO SDK Example "TP-Link HS-Series" adapter');
 console.log('---------------------------------------------');
 
 /*
@@ -12,7 +12,7 @@ console.log('---------------------------------------------');
  */
 
 // first we set the device info, used to identify it on the Brain
-const customLightDevice = neeoapi.buildDevice('Simple Buttons')
+const customLightDevice = neeoapi.buildDevice('TP-Link HS-Series')
   .setManufacturer('TP-Link')
   .addAdditionalSearchToken('HS100/HS110')
   .setType('ACCESSOIRE')
@@ -27,11 +27,11 @@ function startSdkExample(brain) {
   neeoapi.startServer({
     brain,
     port: 6336,
-    name: 'simple-adapter-one',
+    name: 'TP-Link HS-Series',
     devices: [customLightDevice]
   })
   .then(() => {
-    console.log('# READY! use the NEEO app to search for "NEEO Simple Device".');
+    console.log('# READY! use the NEEO app to search for "TP-Link HS-Series".');
   })
   .catch((error) => {
     //if there was any error, print message out to console

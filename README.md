@@ -9,14 +9,18 @@ The revolutionary remote with hand recognition and insanely simple setup for you
 The NEEO Remote can be (Pre)ordered at: https://neeo.com/
 
 ## Requirements
+- install this packet via npm (neeo-driver-tp-link-hs-series)
 - change '$$LOCAL-IP' in controller.js to the locally assigned IP-Adress of your HS-Plug e.g. '192.168.2.230'
-- install with npm install
 
 ## Features
 Currently you are able to Switch ON and OFF with a Button for each action from NEEO Remote and APP
 
 
 ## Changlog
+## Version 0.0.3
+- Updated the Packet Name
+- Distribution to NPM
+
 ## Version 0.0.2
 - Initial release
 
