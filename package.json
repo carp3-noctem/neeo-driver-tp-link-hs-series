@@ -1,6 +1,6 @@
 {
   "name": "neeo-driver-tp-link-hs-series",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Integration of TP-Link HS-Series Smart Plugs in NEEO",
   "main": "index.js",
   "scripts": {

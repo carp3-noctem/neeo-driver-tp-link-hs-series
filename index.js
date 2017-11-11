@@ -12,10 +12,13 @@ console.log('---------------------------------------------');
  */
 
 // first we set the device info, used to identify it on the Brain
-const customLightDevice = neeoapi.buildDevice('TP-Link HS-Series')
-  .setManufacturer('TP-Link')
-  .addAdditionalSearchToken('HS100/HS110')
-  .setType('ACCESSOIRE')
+const tplink_HS = neeoapi.buildDevice('Smart Plug')
+.setManufacturer('TP-Link')
+.addAdditionalSearchToken('HS100')
+.addAdditionalSearchToken('HS110')
+.addAdditionalSearchToken('HS105')
+.addAdditionalSearchToken('HS200')
+.setType('ACCESSOIRE')
 
   // Then we add the capabilities of the device
   .addButton({ name: 'power-on', label: 'HS-PLUG ON' })
@@ -28,7 +31,7 @@ function startSdkExample(brain) {
     brain,
     port: 6336,
     name: 'TP-Link HS-Series',
-    devices: [customLightDevice]
+    devices: [tplink_HS]
   })
   .then(() => {
     console.log('# READY! use the NEEO app to search for "TP-Link HS-Series".');
