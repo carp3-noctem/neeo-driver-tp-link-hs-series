@@ -1,6 +1,6 @@
 # NEEO
 NEEO and TP-Link Smart Plugs
-This project allows you to Integrate the TP-LINK HS100 and HS110 devices in NEEO. At this state it only has the possibility to create an OFF and an ON Shortcut Button in a NEEO Recipe.
+This project allows you to Integrate the TP-LINK HS100, HS105, HS110 and HS200 devices in NEEO. At this state it only has the possibility to create an OFF and an ON Shortcut Button in a NEEO Recipe.
 
 What is NEEO?
 The Thinking Remote
@@ -17,6 +17,8 @@ Currently you are able to Switch ON and OFF with a Button for each action from N
 
 
 ## Changlog
+## Version 0.0.4
+- added additional Search Names
 ## Version 0.0.3
 - Updated the Packet Name
 - Distribution to NPM
